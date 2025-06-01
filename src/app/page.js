@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import dynamic from 'next/dynamic';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm'; // For GitHub Flavored Markdown
+import { Footer } from '../../component/footer';
 
 // Dynamically import TreeWrapper to ensure it only runs on the client
 // Includes a loading state for better UX
@@ -238,9 +239,10 @@ export default function Home() {
                 )}
               </div>
             ))}
-          </div>
+          </div>  
         )}
       </div>
+      <Footer /> {/* Footer component */}
     </main>
   );
 }
