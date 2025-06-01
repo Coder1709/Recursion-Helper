@@ -52,11 +52,11 @@ export const metadata = {
       url: "https://www.linkedin.com/in/arpit-pathak-413b2b209/",
     },
   ],
-  creator: "Your Name",
+  creator: "Arpit Pathak",
   openGraph: {
     title: "Recursion Tree Visualizer",
-    description: "Visualize recursion trees for better understanding of recursive algorithms.",
-    url: "https://yourwebsite.com/recursion-tree-visualizer",
+    description: "Visualize recursion trees for better understanding of recursive algorithms. This tool helps in visualizing the recursive calls and their relationships, making it easier to grasp complex recursive concepts.",
+    locale: "en_US",
     siteName: "Recursion Tree Visualizer",
     images: [
       {
@@ -71,8 +71,6 @@ export const metadata = {
   description: "Visualize recursion trees for better understanding of recursive algorithms.",
   icons: {
     icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-    shortcut: "/shortcut-icon.png",
   },
   themeColor: "#ffffff",
   manifest: "/site.webmanifest",
@@ -92,14 +90,6 @@ export const metadata = {
     types: {
       "application/rss+xml": "/feed.xml",
       "application/atom+xml": "/atom.xml",
-    },
-  },
-  verification: {
-    google: "your-google-site-verification-code",
-    yandex: "your-yandex-site-verification-code",
-    other: {
-      name: "BingSiteAuth",
-      value: "your-bing-site-verification-code",
     },
   },
 };
